@@ -7,11 +7,13 @@
             "browser"
         ],
         "plugins": {
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-crosswalk-webview": {}
         }
     },
     "dependencies": {
         "cordova-browser": "~4.1.0",
+        "cordova-plugin-crosswalk-webview": "^1.8.0",
         "cordova-plugin-whitelist": "1"
     },
     "devDependencies": {
